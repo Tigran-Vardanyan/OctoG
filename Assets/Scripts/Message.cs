@@ -7,11 +7,16 @@ public class Inputs
 {
     public List<string> past_user_inputs;
     public List<string> generated_responses;
-    public string text;
+    public string inputs;
 }
 
 [Serializable]
 public class Message
 {
-    public Inputs inputs;
+    public Inputs input;
+}
+[Serializable]
+public class Answere
+{
+    public string generated_text;
 }
